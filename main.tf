@@ -1,9 +1,3 @@
-terraform {
-  required_version = "~> 0.12.9"
-}
-resource "random_pet" "name" {
-  length = 1
-}
 data "aws_ami" "ubuntu" {
   most_recent = true
 
